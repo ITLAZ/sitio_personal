@@ -1,26 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
 }
 
 div {
-    margin: 10px;
-    padding: 10px;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
 }
 
-nav {
-    margin: 10px;
+ul {
+  margin: 40px 0;
+}
+
+div h1 {
+  color: #10081d;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div p {
+  color: #10081d;
+  font-size: 25px;
+  text-align: center;
+}
+
+div ul li h3{
+    color: #10081d;
+    font-size: 25px;
     padding: 10px;
     text-align: center;
 }
 
-a {
-    text-decoration: underline;
-    color: blue;
-    font-size: 25px;
+.lista li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #10081d;
+  border-radius: 15px;
+  display: flex;
 }
 
-ul li{
+.lista li .content h4 {
+  color: #10081d;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.lista li .content p {
+  color: #10081d;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.lista-familia li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #10081d;
+    color: #10081d;
+    background-color: #fefefe;
+    border-radius: 15px;
+}
+
+.lista-familia li p{
+    color: #10081d;
+}
+
+.lista-familia{
+    background-color: #10081d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.lista-familia h2{
+    color: #fefefe;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.lista-familia p{
+    color: #fefefe;
+    font-size: 20px;
+    text-align: center;
+}
+
+.lista-simple li {
+  margin: 10px;
+  padding: 10px;
+  background-color: #10081d;
+  border-radius: 15px;
+}
+
+.lista-simple li h3 {
+  color: #fefefe;
+  font-size: 25px;
+}
+
+.lista-simple li p {
+  color: #fefefe;
+  font-size: 20px;
+}
+
+.honor {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #10081d;
+  border-radius: 15px;
+  display: flex;
+}
+
+.honor h3 {
+  color: #10081d;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.honor p {
+  color: #10081d;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+div ul li h3 {
+    margin-top: 10px;
+  color: #10081d;
+  font-size: 25px;
+  padding: 10px;
+}
+
+div ul li p {
+  color: #10081d;
+  font-size: 20px;
+  text-align: center;
+}
+
+div ul li figure img {
+  max-height: 100%;
+  width: 300px;
+  border-radius: 5px;
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  background-color: #10081d;
+  color: #fefefe;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 25px;
+  transition: 0.3s ease-in;
+}
+
+a:hover {
+  background-color: #fefefe;
+  color: #10081d;
+  border: #10081d 1px solid;
+}
+
+ul li {
+  list-style: none;
+}
+
+.amigos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.amigos ul{
+    padding: 10px;
+    text-align: center;
+    border: #10081d 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.amigos ul h3{
+    color: #10081d;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.amigos ul li{
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 25px;
     list-style: none;
 }
